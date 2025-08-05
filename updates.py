@@ -9,7 +9,7 @@ CHECK_MINUTE = 30
 BRANCH = "main"
 REPO = "origin"
 
-## Commit Message Check
+print("Check")
 
 def get_local_commit():
 	return subprocess.check_output(['git','rev-parse','HEAD']).decode().strip()
